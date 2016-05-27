@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3778D3081CC8B67400F2294C /* button.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3778D3071CC8B67400F2294C /* button.wav */; };
 		37C15EF11CC61B42001A32DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C15EF01CC61B42001A32DC /* AppDelegate.swift */; };
 		37C15EF31CC61B42001A32DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C15EF21CC61B42001A32DC /* ViewController.swift */; };
 		37C15EF61CC61B42001A32DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C15EF41CC61B42001A32DC /* Main.storyboard */; };
 		37C15EF81CC61B42001A32DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C15EF71CC61B42001A32DC /* Assets.xcassets */; };
 		37C15EFB1CC61B42001A32DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C15EF91CC61B42001A32DC /* LaunchScreen.storyboard */; };
+		37C15F031CC64C75001A32DC /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 37C15F021CC64C75001A32DC /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3778D3071CC8B67400F2294C /* button.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = button.wav; sourceTree = "<group>"; };
 		37C15EED1CC61B41001A32DC /* My calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C15EF01CC61B42001A32DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C15EF21CC61B42001A32DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		37C15EF71CC61B42001A32DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37C15EFA1CC61B42001A32DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37C15EFC1CC61B42001A32DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C15F021CC64C75001A32DC /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		37C15EEF1CC61B41001A32DC /* My calculator */ = {
 			isa = PBXGroup;
 			children = (
+				37C15F021CC64C75001A32DC /* Minecraft.ttf */,
+				3778D3071CC8B67400F2294C /* button.wav */,
 				37C15EF01CC61B42001A32DC /* AppDelegate.swift */,
 				37C15EF21CC61B42001A32DC /* ViewController.swift */,
 				37C15EF41CC61B42001A32DC /* Main.storyboard */,
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C15EFB1CC61B42001A32DC /* LaunchScreen.storyboard in Resources */,
+				3778D3081CC8B67400F2294C /* button.wav in Resources */,
 				37C15EF81CC61B42001A32DC /* Assets.xcassets in Resources */,
+				37C15F031CC64C75001A32DC /* Minecraft.ttf in Resources */,
 				37C15EF61CC61B42001A32DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +295,7 @@
 				37C15F011CC61B42001A32DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
